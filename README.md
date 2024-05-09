@@ -6,11 +6,11 @@ Welcome to AddiScripts! This repository contains a collection of scripts written
 
 The repository is organized into folders for each script type:
 
-- **AHK:** Contains scripts written in AutoHotkey.
-- **PowerShell:** Contains scripts written in PowerShell.
-- **Batch:** Contains scripts written in command prompt that can be saved as .bat files.
-- **Bash:** Contains scripts written in Bash.
-- **Python:** Contains scripts written in Python.
+- **[AHK](AHK):** Contains scripts written in AutoHotkey.
+- **[PowerShell](PowerShell):** Contains scripts written in PowerShell.
+- **[Batch](Batch):** Contains scripts written in command prompt that can be saved as .bat files.
+- **[Bash](Bash):** Contains scripts written in Bash.
+- **[Python](Python):** Contains scripts written in Python.
 
 ## Usage
 
