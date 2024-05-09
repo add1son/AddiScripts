@@ -32,3 +32,7 @@ Contributions to this repository are welcome! If you have a script you'd like to
 3. Make your changes and commit them (`git commit -am 'Add new script'`).
 4. Push your changes to your forked repository (`git push origin feature/add-new-script`).
 5. Create a pull request to merge your changes into the main repository.
+
+## Disclaimer:
+
+All scripts provided in this GitHub directory are offered without warranty or guarantee. The end user is expected to read the comments associated with each script prior to running. The author(s) of these scripts shall not be held responsible for any damages or losses resulting from the use or misuse of these scripts.
