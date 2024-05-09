@@ -22,3 +22,6 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 4. Review the script comments for any additional instructions, usage examples, or configuration settings.
 5. Save the changes to the script file if any modifications are made.
 6. Run the script using Python interpreter by executing `python ScriptName.py` in the terminal or command prompt.
+
+## Additional Resources
+* [Awesome-Python-Scripts](https://github.com/hastagAB/Awesome-Python-Scripts)
