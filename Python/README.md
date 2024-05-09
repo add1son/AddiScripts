@@ -25,3 +25,4 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 
 ## Additional Resources
 * [Awesome-Python-Scripts](https://github.com/hastagAB/Awesome-Python-Scripts)
+* [awesome python](https://github.com/vinta/awesome-python)

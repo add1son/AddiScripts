@@ -22,4 +22,7 @@ To run the PowerShell scripts, you can follow these steps:
 3. Navigate to the PowerShell folder.
 4. Run each script by typing `.\ScriptName.ps1` and pressing Enter.
    ```powershell
-   .\ScriptName.ps1
+   .\ScriptName.ps1```
+   
+## Additional Resources   
+* (awesome-powershell)[https://github.com/janikvonrotz/awesome-powershell]

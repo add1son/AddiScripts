@@ -24,3 +24,6 @@ Welcome to the AutoHotkeyScripts folder! This directory contains a collection of
 5. Review the script comments for any customization options or configuration settings.
 6. Save the changes to the script file.
 7. Double-click on the script file to run it or right-click and select "Run Script".
+
+## Additional Resources
+* [Awesome AHK](https://github.com/ahkscript/awesome-AutoHotkey)

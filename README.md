@@ -11,6 +11,7 @@ The repository is organized into folders for each script type:
 - **[Batch](Batch):** Contains scripts written in command prompt that can be saved as .bat files.
 - **[Bash](Bash):** Contains scripts written in Bash.
 - **[Python](Python):** Contains scripts written in Python.
+- **[Userscripts](Userscripts):** Contains scripts written for changing the way websites work in browser
 
 ## Usage
 
