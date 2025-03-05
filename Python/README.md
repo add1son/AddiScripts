@@ -6,10 +6,10 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 
 ### Template 
 
- 1. ScriptName1.py
+ 1. word_count.py
 
-- **Description:** Brief description of what this script does.
-- **Functionality:** Explanation of the tasks or actions performed by the script.
+- **Description:** Counts a total number of words for a markdown file, 
+- **Functionality:** I use this for a folder of markdown files for use with [obsidian.md](https://obsidian.md/)
 
 
 ...
