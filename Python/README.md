@@ -4,8 +4,6 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 
 ## Scripts
 
-### Template 
-
  1. word_count.py
 
 - **Description:** Counts a total number of words for a markdown file, 
