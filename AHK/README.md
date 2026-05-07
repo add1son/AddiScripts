@@ -3,7 +3,20 @@
 Welcome to the AutoHotkeyScripts folder! This directory contains a collection of AutoHotkey scripts designed to automate tasks and enhance productivity on your Windows system.
 
 ## Scripts
+1. [TeamsMutify.ahk](TeamsMutify.ahk)
 
+- **Description:** Push to mute / unmute in Microsoft Teams regardless of if the window is focused
+- **Activation:** F10
+
+2. [clipboard_as_keyboard.ahk](clipboard_as_keyboard.ahk)
+
+- **Description:** 
+- **Activation:** 
+
+3. [yt-dlp.ahk](yt-dlp.ahk)
+
+- **Description:**
+- **Activation:** 
 
 ### Template 
 
@@ -11,11 +24,9 @@ Welcome to the AutoHotkeyScripts folder! This directory contains a collection of
 
 - **Description:** Brief description of what this script does.
 - **Activation:** Button combination or trigger that activates the script.
-- **Functionality:** Explanation of the tasks or actions performed by the script.
-
-
 
 ## Usage
+Follow this if you do not have AHK installed, if you do feel free to clone / grab pieces out of these scripts and add them to your own!
 
 1. Download the AutoHotkey interpreter from [AutoHotkey website](https://www.autohotkey.com/).
 2. Clone or download the contents of this repository to your local machine.
