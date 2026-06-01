@@ -10,12 +10,12 @@ Welcome to the AutoHotkeyScripts folder! This directory contains a collection of
 
 2. [clipboard_as_keyboard.ahk](clipboard_as_keyboard.ahk)
 
-- **Description: Pastes current clipboard output as keyboard output
+- **Description**: Pastes current clipboard output as keyboard output
 - **Activation:**: Ctrl + Shift + Z
 
 3. [yt-dlp.ahk](yt-dlp.ahk)
 
-- **Description: yt-dlp hook to integrate into foot pedal
+- **Description**: yt-dlp hook to integrate into foot pedal
 - **Activation:**: F14
 
 ## Usage
