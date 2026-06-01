@@ -10,20 +10,13 @@ Welcome to the AutoHotkeyScripts folder! This directory contains a collection of
 
 2. [clipboard_as_keyboard.ahk](clipboard_as_keyboard.ahk)
 
-- **Description:** 
-- **Activation:** 
+- **Description: Pastes current clipboard output as keyboard output
+- **Activation:**: Ctrl + Shift + Z
 
 3. [yt-dlp.ahk](yt-dlp.ahk)
 
-- **Description:**
-- **Activation:** 
-
-### Template 
-
-1. ScriptName1.ahk
-
-- **Description:** Brief description of what this script does.
-- **Activation:** Button combination or trigger that activates the script.
+- **Description: yt-dlp hook to integrate into foot pedal
+- **Activation:**: F14
 
 ## Usage
 Follow this if you do not have AHK installed, if you do feel free to clone / grab pieces out of these scripts and add them to your own!
