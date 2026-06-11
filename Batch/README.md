@@ -3,7 +3,7 @@
 Welcome to the Batch folder! This directory contains a collection of Batch scripts (cmd) designed to automate tasks and perform various functions.
 
 ## Scripts
-### bypass_excute_policy_powershell.bat
+### [bypass_excute_policy_powershell.bat](https://github.com/add1son/AddiScripts/blob/main/Batch/bypass_excute_policy_powershell.bat)
 
 * **Description:** A batch wrapper that temporarily bypasses PowerShell execution policies for a specific script session without altering global system security settings.
 * **Functionality:** 
