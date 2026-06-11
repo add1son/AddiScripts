@@ -21,6 +21,16 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 - **Description:** Combines multiple individual Markdown files from a specified folder into a single, organized master document.
 - **Functionality:** I use this for a folder of markdown files for use with obsidian.md to merge daily notes, logs, or archives for easier backup and LLM ingestion.
 
+### [TG_Archive_Html_to_json.py](https://github.com/add1son/AddiScripts/blob/main/Python/TG_Archive_Html_to_json.py)
+- **Description:** A lightweight Python script that parses, cleans, and structures Telegram chat histories exported in HTML format into a normalized JSON dataset. It automatically resolves common export artifacts, such as empty system notifications and missing sender names on sequential messages.
+- **Functionality:**
+    - **HTML Parsing:** Uses `BeautifulSoup` to safely extract sender names, message text, and timestamps from native Telegram HTML structures.
+    - **In-Memory Efficiency:** Processes parsing, data sanitization, and transformations entirely in memory to eliminate redundant file I/O.
+    - **Name Forward-Filling:** Fixes Telegram's layout behavior by automatically propagating the sender's name downward to consecutive messages.
+    - **Data Sanitization:** Drops empty records and system logs missing both text and sender details during the initial extraction pass.
+    - **Clean JSON Export:** Generates a properly indented, UTF-8 encoded JSON file (`messages_cleaned.json`) that fully preserves emojis and non-ASCII text.
+    - **Error Handling:** Features basic exception handling to catch missing input files gracefully without throwing raw stack traces.
+
 ## Usage
 
 1. Clone or download the contents of this repository to your local machine.
