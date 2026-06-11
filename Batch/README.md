@@ -3,16 +3,15 @@
 Welcome to the Batch folder! This directory contains a collection of Batch scripts (cmd) designed to automate tasks and perform various functions.
 
 ## Scripts
+### bypass_excute_policy_powershell.bat
 
-### Template
-
-1. ScriptName1.bat
-
-- **Description:** Brief description of what this script does.
-- **Functionality:** Explanation of the tasks or actions performed by the script.
-
-
-
+* **Description:** A batch wrapper that temporarily bypasses PowerShell execution policies for a specific script session without altering global system security settings.
+* **Functionality:** 
+  * **Enforces Admin Rights:** Checks for and requires Administrator privileges before running.
+  * **Handles UNC Paths:** Automatically resolves network share mapping using `pushd` and `popd`.
+  * **Pre-Flight Check:** Verifies the target `.ps1` file exists locally to prevent unhandled script errors.
+  * **Clean Execution:** Launches PowerShell with `-ExecutionPolicy Bypass` and `-NoProfile` to block user profile bloat and ensure an isolated run.
+  * **Passes Exit Codes:** Captures the true error/success code of the PowerShell script and returns it to the calling system or RMM automation platform.
 
 ## Usage
 
