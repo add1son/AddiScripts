@@ -35,6 +35,12 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 - **Functionality:**
     - **Immich:** sorts a folder into folders based on date the media was taken 
 
+
+### [podcast_archiver.py](https://github.com/add1son/AddiScripts/blob/main/Python/podcast_archiver.py)
+- **Description:** Downloads a podcast based on RSS feed and tags with metadata for plex
+- **Functionality:**
+    - **prereq:** pip3 install requests feedparser mutagen
+
 ## Usage
 
 1. Clone or download the contents of this repository to your local machine.
