@@ -5,7 +5,6 @@ Welcome to the Python folder! This directory contains a collection of Python scr
 ## Scripts
 
 ### [word_count.py](https://github.com/add1son/AddiScripts/blob/main/Python/word_count.py)
-
 - **Description:** Counts a total number of words for a markdown file, 
 - **Functionality:** I use this for a folder of markdown files for use with [obsidian.md](https://obsidian.md/)
 
@@ -30,6 +29,11 @@ Welcome to the Python folder! This directory contains a collection of Python scr
     - **Data Sanitization:** Drops empty records and system logs missing both text and sender details during the initial extraction pass.
     - **Clean JSON Export:** Generates a properly indented, UTF-8 encoded JSON file (`messages_cleaned.json`) that fully preserves emojis and non-ASCII text.
     - **Error Handling:** Features basic exception handling to catch missing input files gracefully without throwing raw stack traces.
+
+### [sort_media.py](https://github.com/add1son/AddiScripts/blob/main/Python/sort_media.py)
+- **Description:** Sort data into folders based on file metadata
+- **Functionality:**
+    - **Immich:** sorts a folder into folders based on date the media was taken 
 
 ## Usage
 
