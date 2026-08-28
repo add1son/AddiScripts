@@ -18,6 +18,34 @@ Welcome to the AutoHotkeyScripts folder! This directory contains a collection of
 - **Description**: yt-dlp hook to integrate into foot pedal
 - **Activation:**: F14
 
+3. [markdown.ahk](markdown.ahk)
+- **Description**: optimize markdown formatting via global hotkeys, inspired by [this](https://github.com/koepalex/autohotkey-markdown/blob/master/markdown.ahk)
+- **Activation**: Many, 
+| Hotkey | Action | Markdown | HTML |
+|---|---|---|---|
+| Alt+I | Emphasis (wraps selection) | `*text*` | `<em>text</em>` |
+| Alt+B | Bold (wraps selection) | `**text**` | `<strong>text</strong>` |
+| Alt+C | Inline code (wraps selection) | `` `code` `` | `<code>code</code>` |
+| Alt+S | Strikethrough (wraps selection) | `~~text~~` | `<del>text</del>` |
+| Alt+Q | Blockquote | `> text` | `<blockquote>text</blockquote>` |
+| Alt+N | Hard line break | two trailing spaces + newline | `<br />` |
+| Alt+. | Unordered list item | `* item` | `<ul><li>item</li></ul>` |
+| Alt+, | Ordered list item | `1. item` | `<ol><li>item</li></ol>` |
+| Alt+Shift+. | Task list item | `- [ ] item` | checkbox input |
+| Alt+T | Indent (4 spaces) | â€” | â€” |
+| Alt+L | Link wizard | `[text](url)` | `<a href="url">text</a>` |
+| Alt+P | Image wizard | `![alt](url)` | `<img src="url" alt="alt" />` |
+| Alt+- | Horizontal rule | `---` | `<hr />` |
+| Alt+Shift+T | Table skeleton | `\| a \| b \|` | `<table>...</table>` |
+| Ctrl+Alt+1 â€“ Ctrl+Alt+6 | Heading level 1â€“6 | `#` through `######` | `<h1>` â€“ `<h6>` |
+| Alt+# | HTML code-block beautifier | â€” | â€” |
+
+**Wrapping hotkeys (I, B, C, S):** select text first and the hotkey wraps the selection. With nothing selected, it inserts empty markers and drops the cursor between them.
+
+**Link wizard:** if you have text selected when you press Alt+L, it's used as the pre-filled link text.
+
+**Code-block beautifier:** point it at an HTML file (e.g. one rendered from Markdown). Inside any `<code>...</code>` section it replaces tabs with 4 spaces, spaces with `&nbsp;`, and appends `<br />` to each line, then writes the result to `<name>_converted.html` next to the original.
+
 ## Usage
 Follow this if you do not have AHK installed, if you do feel free to clone / grab pieces out of these scripts and add them to your own!
 
