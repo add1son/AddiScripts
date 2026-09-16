@@ -4,15 +4,6 @@ Welcome to the Userscripts folder! This directory contains a collection of Greas
 
 ## Userscripts
 
-### Template
-
-1. ScriptName1.user.js
-
-- **Description:** Brief description of what this userscript does.
-- **Functionality:** Explanation of the tasks or actions performed by the userscript.
-
-
-
 ## Installation
 
 To use these userscripts, you'll need to install a userscript manager browser extension like Greasemonkey or Violentmonkey. Here's how to install each:
