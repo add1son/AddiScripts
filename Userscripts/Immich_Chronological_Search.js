@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      5.0
 // @description  Renders a true Google Photos chronological date-grouped timeline on Immich search pages
+// @author       Add1son
 // @match        http://YOUR_IMMICH_IP_OR_DOMAIN:PORT/*
 // @match        https://photos.example.com/*
 // @run-at       document-idle
